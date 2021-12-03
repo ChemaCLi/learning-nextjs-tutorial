@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import { ProfileImage } from '../../components/profile-image'
+import Layout from '../../components/layout'
 
 export default function FirstPost() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
       </Head>
@@ -28,6 +29,6 @@ export default function FirstPost() {
           font-family: Arial;
         }
       `}</style>
-    </>
+    </Layout>
   )
 }
