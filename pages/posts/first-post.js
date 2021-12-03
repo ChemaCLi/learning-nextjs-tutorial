@@ -1,9 +1,13 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import { ProfileImage } from '../../components/profile-image'
 
 export default function FirstPost() {
   return (
     <>
+      <Head>
+        <title>First Post</title>
+      </Head>
       <h1>First Post</h1>
       <ProfileImage />
       <h2>
