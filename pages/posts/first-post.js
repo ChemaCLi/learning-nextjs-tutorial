@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import { ProfileImage } from '../../components/profile-image'
 
 export default function FirstPost() {
   return (
     <>
       <h1>First Post</h1>
+      <ProfileImage />
       <h2>
         {/*
          the page wrapped with Link is automatically prefetched
